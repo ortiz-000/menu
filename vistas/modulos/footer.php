@@ -2,5 +2,5 @@
     <div class="float-right d-none d-sm-block">
         <b>SENA</b> Hermes
     </div>
-    <strong>2847523 &copy; HERMES <a href="https://adminlte.io">2847523</a>.</strong> Herramientas y equipos reservables para el manejo estratégico de servicios
+    <strong>2847523 &copy; HERMES--Ortiz <a href="https://adminlte.io">2847523</a>.</strong> Herramientas y equipos reservables para el manejo estratégico de servicios
 </footer>

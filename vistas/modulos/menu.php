@@ -1,15 +1,11 @@
-
- 
- 
- <!-- Main Sidebar Container -->
- <aside class="main-sidebar sidebar-dark-primary elevation-4">
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
     
     <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
    
       <center><span class="brand-text font-weight-light">HERMES-V1</span></center>
     </a>
-
 
     <div class="sidebar">
       <!-- Sidebar user (optional) -->
@@ -21,20 +17,43 @@
           <a href="#" class="d-block">Alexander Pierce</a>
         </div>
       </div>
- <!-- Sidebar Menu -->
- <nav class="mt-2">
+    </div>
+    
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+          <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library --> 
           <li class="nav-item">
             <a href="#" class="nav-link">
+              <i class="fa fa-users"></i>
+              <p>
+                Administrar
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="sedes" class="nav-link">
+                  <i class="far fa-user"></i>
+                  <p>sede</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="fichas" class="nav-link">
+                  <i class="fa fa-key"></i>
+                  <p>fichas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="inicio" class="nav-link">
               <i class="fas fa-home"></i>
               <p>
                 Inicio
               </p>
-            </a>
-          </li>
-          <li class="nav-item">
+            </a> 
+            <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="fa fa-users"></i>
               <p>
@@ -44,19 +63,21 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="usuario" class="nav-link">
                   <i class="far fa-user"></i>
                   <p>Usuario</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="permisos" class="nav-link">
                   <i class="fa fa-key"></i>
                   <p>Permisos</p>
                 </a>
               </li>
             </ul>
           </li>
+          </li>
+         
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="fa fa-laptop"></i>
@@ -67,15 +88,16 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="inventario" class="nav-link">
                   <i class="fa fa-box"></i>
                   <p>inventario</p>
-                <a href="#" class="nav-link">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="recepcion_traspaso" class="nav-link">
                   <i class="fa fa-box"></i>
                   <p>Recepción/Traspaso</p>
                 </a>
-                </a>
-
               </li>
             </ul>
           </li>
@@ -89,23 +111,22 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="reservas" class="nav-link">
                   <i class="fa fa-file-alt"></i>
                   <p>reservas</p>
                 </a>
-                <li class="nav-item">
-                <a href="#" class="nav-link">
+              </li>
+              <li class="nav-item">
+                <a href="inmediatas" class="nav-link">
                   <i class="fa fa-key"></i>
                   <p>Inmediatas</p>
                 </a>
-              </li>
-              </li>
               </li>
             </ul>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-edit"></i>
+              <i class="nav-icon fas fa-edit"></i>
               <p>
                 Autorizar
                 <i class="fas fa-angle-left right"></i>
@@ -113,11 +134,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="autorizados" class="nav-link">
                   <i class="fa fa-check-circle"></i>
                   <p>Autorizados</p>
                 </a>
-                <a href="#" class="nav-link">
+              </li>
+              <li class="nav-item">
+                <a href="solicitudpendiente" class="nav-link">
                   <i class="fa fa-spinner"></i>
                   <p>Solicitud Pendiente</p>
                 </a>
@@ -125,7 +148,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="devoluciones" class="nav-link">
               <i class="fa fa-sync"></i>
               <p>
                 Devoluviones
@@ -133,17 +156,21 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-            <i class="fa fa-arrow-left"></i>
-                <p>
-                    Salidas
-                </p>
+            <a href="salidas" class="nav-link">
+              <i class="fa fa-arrow-left"></i>
+              <p>
+                Salidas
+              </p>
             </a>
+          </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-edit"></i>
-                <p>
-                    Reportes
-    
-                </p>
+            <a href="reportes" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                Reportes
+              </p>
             </a>
+          </li>
+        </ul>
+    </nav>
+</aside>
